@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+    font-family: 'OpenSans';
+}
+/* section galeria de imagenes */
+.section-galeria{
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.section-galeria__encabezado{
+    background-image: url(../../Images/ninos-galeria.png);
+    border-bottom: 8px solid #04a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 0 115px;
+}
+.section-galeria__encabezado h1{
+    font-size: 75px;
+    text-align: center;
+    color: #04a;
+    border-left: 8px solid #000;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+.fotografias-content{
+    max-width: 405px;
+    max-height: 270px;
+    margin: 10px 10px;
+    box-shadow: 0 0 8px #000;
+    overflow: hidden;
+    transition: .3s;
+}
+.fotografias-content img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.fotografias-content:hover img{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.section-galeria__fotografias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+.openimage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 850px;
+    max-height: 550px;
+    margin: auto;
+}
+
+/* 1200px: Laptops pequeños
+1024px: Tabletas en modo paisaje
+768px: Tabletas en modo retrato
+480px: Teléfonos en modo paisaje
+414px: Teléfonos más grandes
+375px: Teléfonos medianos
+320px: Teléfonos muy pequeños */
+
+@media (max-width: 1200px) {
+    .section-galeria__encabezado h1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section-galeria__encabezado h1{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 950px) {
+    .section-galeria__encabezado{
+        padding: 0;
+        padding: 0 20px;
+    }
+    .section-galeria__encabezado h1{
+        font-size: 50px;
+    }
+}
+@media (max-width: 650px) {
+    .section-galeria__encabezado h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 515px) {
+    .section-galeria__encabezado h1{
+        font-size: 35px;
+    }
+}
+

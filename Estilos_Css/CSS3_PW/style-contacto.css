@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+    font-family: 'OpenSans';
+}
+/* section del mapa */
+.section-map .section-map__encabezado{
+    display: flex;
+    justify-content: center;
+}
+.section-map .section-map__encabezado h1{
+    font-size: 44px;
+    border-left: 8px solid #04a;
+    padding-left: 8px;
+    margin: 20px 0;
+}
+.section-map .section-map__contacto{
+    display: flex;
+    justify-content: center;
+}
+.section-map .section-map__contacto iframe{
+    width: 900px;
+    box-shadow: 0 0 15px #000;
+    margin: 0 20px 40px 20px;
+}
+/* section del formulario de contactos */
+.section-formulario{
+    background-color: #3bf;
+    color: #fff;
+    padding: 0 20px;
+}
+.section-formulario__encabezado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 30px 0;
+}
+.section-formulario__encabezado h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-wrap: balance;
+}
+.section-formulario__encabezado p{
+    width: 700px;
+    font-size: 15px;
+    text-align: center;
+    text-wrap: balance;
+}
+.section-formulario__container{
+    display: flex;
+    justify-content: center;
+}
+.section-formulario__container .container-left{
+    width: 600px;
+    margin: 10px 0 50px 0;
+}
+.section-formulario__container .container-left img{
+    width: 500px;
+}
+.section-formulario__container .container-rigth{
+    width: 500px;
+    margin: 10px 0 50px 0;
+}
+.section-formulario__container .container-rigth .input{
+    border: none;
+    width: 100%;
+    min-height: 40px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+#textarea{
+    resize: none; 
+    height: 135px;    
+    padding-top: 10px;
+    font-family: 'OpenSans';
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.container-rigth .input-container label{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    text-shadow: 0 0 50px #fff;
+}
+.container-rigth .input-container label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.container-rigth .button{
+    text-align: end;
+}
+.container-rigth .input-container button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    color: #04a;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-rigth .input-container .input::placeholder{
+    font-family: 'OpenSans';
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* 1200px: Laptops pequeños
+1024px: Tabletas en modo paisaje
+768px: Tabletas en modo retrato
+480px: Teléfonos en modo paisaje
+414px: Teléfonos más grandes
+375px: Teléfonos medianos
+320px: Teléfonos muy pequeños */
+
+@media (max-width: 950px) {
+    /* section del formulario de contactos */
+    .section-formulario__container .container-left{
+        display: none;
+    }
+    .section-formulario__container .container-rigth{
+        width: 800px;
+        padding: 0 20px;
+    }
+    .section-formulario__encabezado h2{
+        width: 100%;
+        text-align: center;
+    }
+    .section-formulario__encabezado p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* section del mapa */
+    .section-map .section-map__encabezado h1{
+        font-size: 35px;
+        margin: 20px;
+        text-wrap: balance;
+    }
+}
+@media (max-width: 414px) {
+    /* section del mapa */
+    .section-map .section-map__contacto iframe{
+        height: 350px;
+    }
+    .section-map .section-map__encabezado h1{
+        font-size: 28px;
+    }
+}
+

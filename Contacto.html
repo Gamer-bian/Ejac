@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos_Css/CSS3_PW/style-index.css">
+    <link rel="stylesheet" href="./Estilos_Css/CSS3_PW/style-contacto.css">
+    <link rel="stylesheet" href="./Estilos_Css/CSS3_PW/fuentes.css">
+    <link rel="icon" href="./Iconos-logos/logo_ejac.png">
+    <title>EJAC</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <!-- Primer nav -->
+        <nav class="header__nav-primero">
+            <div class="header__nav-primero-content">
+                <div class="nav-primero__logo">
+                    <div class="logo__img">
+                        <img src="./Iconos-logos/logo_ejac.png" alt="logo-ejac">
+                    </div>
+                    <div class="nav-primero__titulos">
+                        <h6>Escuela</h6>
+                        <h6>EJAC</h6>
+                    </div>
+                </div>
+                <div class="nav-primero__informacion">
+                    <div class="informacion__container">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="informacion__titulos">
+                            <h6>Dirección</h6>
+                            <h6>HGF2+75M, San José de Ocoa 93000</h6>
+                        </div>
+                    </div>
+                    <div class="informacion__container">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="informacion__titulos">
+                            <h6>Teléfono</h6>
+                            <h6>(829) - 000 - 0000</h6>
+                        </div>
+                    </div>
+                    <div class="informacion__container">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="informacion__titulos">
+                            <h6>Correo</h6>
+                            <h6>Ejacoficial@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Segundo nav -->
+        <nav class="header__nav-segundo">
+            <ul class="header__ul">
+                <li class="nav-segundo__list-item"><a href="Index.html" class="nav-segundo__list-link">Inicio</a></li>
+                <li class="nav-segundo__list-item"><a href="Servicio.html" class="nav-segundo__list-link">Servicio</a></li>
+                <li class="nav-segundo__list-item"><a href="Galeria.html" class="nav-segundo__list-link">Galeria</a></li>
+                <li class="nav-segundo__list-item"><a href="Contacto.html" class="nav-segundo__list-link">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Tercer nav responsivo -->
+        <nav class="header__nav-tercero-reponsive">
+            <div class="nav-tercero-reponsive__container">
+                <div class="nav-tercero__logo">
+                    <div class="logo__img">
+                        <img src="./Iconos-logos/logo_ejac.png" alt="logo-ejac">
+                    </div>
+                    <div class="nav-tercero__titulos">
+                        <h6>Escuela</h6>
+                        <h6>EJAC</h6>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars" id="close-open-i"></i>
+                <i class="fa-solid fa-xmark" id="close-i"></i>
+                <ul class="header__ul-reponsive">
+                    <li class="nav-tercero__list-item-rwd"><a href="Index.html" class="nav-tercero__list-link-rwd">Inicio</a></li>
+                    <li class="nav-tercero__list-item-rwd"><a href="Servicio.html" class="nav-tercero__list-link-rwd">Servicio</a></li>
+                    <li class="nav-tercero__list-item-rwd"><a href="Galeria.html" class="nav-tercero__list-link-rwd">Galeria</a></li>
+                    <li class="nav-tercero__list-item-rwd"><a href="Contacto.html" class="nav-tercero__list-link-rwd">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section del mapa -->
+    <section class="section-map">
+        <div class="section-map__encabezado">
+            <h1>Dirección de nuestro centro</h1>
+        </div>
+        <div class="section-map__contacto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60512.264486419306!2d-70.54087677533353!3d18.57329347132909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb0011eff7aa7e5%3A0x448e2e5522f31b97!2sEscuela%20Basica%20Rural%20Prof.%20Jose%20A.%20Castillo!5e0!3m2!1ses!2sdo!4v1713662355671!5m2!1ses!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- section del formulario de contactos -->
+    <section class="section-formulario">
+        <div class="section-formulario__encabezado">
+            <h2>¿Quieres saber más? </h2>
+            <p>¡Estamos aquí para ayudarte! Si deseas obtener más información sobre nuestra escuela de nivel inicial y primaria, no dudes en ponerte en contacto con nosotros. Estamos comprometidos a brindarte toda la información que necesites para tomar la mejor decisión para tu hijo/a.</p>
+        </div>
+        <div class="section-formulario__container">
+            <div class="container-left">
+                <img src="./Images/contactanos-2.png" alt="img-contactos">
+            </div>
+            <form class="container-rigth" action="https://formsubmit.co/gamerbian001@gmail.com" method="POST">
+                <div class="input-container">
+                    <label for="input-text">Escribe tu nombre</label>
+                    <input type="text" placeholder="John Mario" required id="input-text" class="input" name="Nombre">
+                </div>
+                <div class="input-container">
+                    <label for="input-correo">Escribe tu correo</label>
+                    <input type="email" placeholder="ejemplo@gmail.com" required id="input-correo" class="input" name="Correo">
+                </div>
+                <div class="input-container">
+                    <label for="input-tel">Escribe tu telefono (Opcional)</label>
+                    <input type="tel" placeholder="(000) - 000 - 000" id="input-tel" class="input" name="Telefono">
+                </div>
+                <div class="input-container">
+                    <label for="textarea">Escribe tu mensaje</label>
+                    <textarea name="Mensaje" id="textarea" placeholder="Mensaje..." class="input"></textarea>
+                </div>
+                <div class="input-container button">
+                    <button>ENVIAR MENSAJE</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- seccion de boton de subir -->
+    <section class="boton-go-to-top-container">
+        <i class="fa-solid fa-angle-up hidebtn" id="botonup"></i>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="footer__div-left">
+                <div class="div-left__logo">
+                    <img src="./Iconos-logos/logo_ejac.png" alt="logo-ejac">
+                    <div class="logo__titulos">
+                        <h3>Escuela</h3>
+                        <h3>EJAC</h3>
+                    </div>
+                </div>
+                <div class="div-left__social">
+                    <a href="https://instagram.com" target="_blank"><img src="./Iconos-logos/instagram.png" alt="logo-instagram"></a>
+                    <a href="https://facebook.com" target="_blank"><img src="./Iconos-logos/facebook.png" alt="logo-facebook"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="./Iconos-logos/x.png" alt="logo-x"></a>
+                </div>
+            </div>
+            <div class="footer__div-right">
+                <div class="div-right__titulo">
+                    <h2>Contacta con nosotros</h2>
+                </div>
+                <div class="div-right__redes">
+                    <div class="redes__ubicacion-azul redes__container-azul">
+                        <i class="fa-solid fa-location-dot" class="redes__img-logo-azul"></i>
+                        <div class="container-azul__titulos">
+                            <h3>Dirección</h3>
+                            <h3>HGF2+75M, San José de Ocoa 93000</h3>
+                        </div>
+                    </div>
+                    <div class="redes__telefono-azul redes__container-azul">
+                        <i class="fa-solid fa-phone" class="redes__img-logo-azul"></i>
+                        <div class="container-azul__titulos">
+                            <h3>Teléfono</h3>
+                            <h3>(829) - 000 - 0000</h3>
+                        </div>
+                    </div>
+                    <div class="redes__correo-azul redes__container-azul">
+                        <i class="fa-regular fa-envelope" class="redes__img-logo-azul"></i>
+                        <div class="container-azul__titulos">
+                            <h3>Correo</h3>
+                            <h3>Ejacoficial@gmail.com</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    <div class="footer__pie-de-pagina">
+        <p>© 2024 | Todos los derechos reservados EJAC | Desarrollado por BMM</p>
+    </div>  
+    </footer>
+   
+    <script src="https://kit.fontawesome.com/06f32376e9.js" crossorigin="anonymous"></script>
+    <script src="./Javascript/script.js"></script>
+</body>
+</html>

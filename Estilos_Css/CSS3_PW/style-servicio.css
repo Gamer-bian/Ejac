@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'OpenSans';
+}
+
+/* section del header */
+.header__section{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../Images/servicios-header.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__section .section__cuadro-trasparent{
+    width: 600px;
+    height: 300px;
+    background-color: #0007;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 35px;
+}
+.header__section .section__cuadro-trasparent h1{
+    font-size: 44px;
+    margin-bottom: 10px;
+    border-left: 8px solid #27d;
+    padding-left: 10px;
+}
+.header__section .section__cuadro-trasparent p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.header__section .section__cuadro-trasparent a button{
+    border: none;
+    font-size: 20px;
+    background-color: #27d;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+.header__section .section__cuadro-trasparent a button:hover{
+    background-color: #38e;
+    color: #eee;
+    transition: .3s;
+}
+
+/* section de los niveles educativos */
+.section__nevel-educ{
+    width: 100%;
+    background-color: #eee;
+    padding: 50px 0;
+}
+.section__nevel-educ .nevel-educ__encabezado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section__nevel-educ .nevel-educ__encabezado p{
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-wrap: balance;
+}
+.section__nevel-educ .nevel-educ__encabezado h2{
+    font-size: 45px;
+    padding: 0 20px;
+    text-wrap: balance;
+    text-align: center;
+}
+.nevel-educ__carts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__nevel-educ .nevel-educ__carts{
+    background-color: #27d;
+    box-shadow: 10px 10px 0 #04a;
+    margin: 20px 40px;
+    width: 400px;
+    max-height: 450px;
+}
+.section__nevel-educ .nevel-educ__carts img{
+    width: 100%;
+    height: 265px;
+    padding: 40px 20px 0 20px;
+    object-fit: cover;
+}
+.section__nevel-educ .nevel-educ__carts h2{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0 15px 15px 15px;
+}
+/* section de psicologia */
+.section-psicolog .section-psicolog__enbabezado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-psicolog .section-psicolog__enbabezado h2{
+    width: 900px;
+    font-size: 30px;
+    text-wrap: balance;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.section-psicolog .section-psicolog__enbabezado p{
+    width: 950px;
+    font-size: 17px;
+    text-align: center;
+    text-wrap: balance;
+}
+.section-psicolog__herrapsicolog{
+    display: flex;
+    justify-content: center;
+}
+.herrapsicolog__herra{
+    margin: 20px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #04a;
+}
+.section-psicolog__herrapsicolog .herra1 img{
+    width: 95px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.section-psicolog__herrapsicolog .herra2 img{
+    width: 118px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.section-psicolog__herrapsicolog .herra3 img{
+    width: 130px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.section-psicolog__herrapsicolog .herra4 img{
+    width: 165px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.section-psicolog__herrapsicolog .herra5 img{
+    width: 110px;
+    margin-top: 10px;
+}
+.section-psicolog__images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-psicolog__images .images-content{
+    max-width: 360px;
+    max-height: 250px;
+    margin: 25px 10px 50px 10px;
+    transition: .3s;
+}
+.section-psicolog__images .images-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+.section-psicolog__images .images-content:hover img{
+    transform: scale(1.1);
+    transition: .3s;
+}
+/* section de propuesta educativa */
+.section-propeducativ{
+    background-color: #3bf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.section-propeducativ__div-left{
+    margin-right: 50px;
+}
+.section-propeducativ__div-left img{
+    height: 400px;
+}
+.div-right__propuestas{
+    display: flex;
+}
+.div-right__propuestas i{
+    font-size: 35px;
+    color: #00c00d;
+    margin-right: 10px;
+}
+.section-propeducativ__div-right h2{
+    font-size: 45px;
+}
+.section-propeducativ__div-right p{
+    font-size: 17px;
+}
+
+/* 1200px: Laptops pequeños
+1024px: Tabletas en modo paisaje
+768px: Tabletas en modo retrato
+480px: Teléfonos en modo paisaje
+414px: Teléfonos más grandes
+375px: Teléfonos medianos
+320px: Teléfonos muy pequeños */
+
+@media (max-width: 1200px) {
+    /* section de psicologia */
+    .section-psicolog__herrapsicolog{
+        display: none;
+    }
+    .section-psicolog .section-psicolog__enbabezado h2{
+        width: 100%;
+    }
+    .section-psicolog .section-psicolog__enbabezado p{
+        width: 100%;
+    }
+    /* section de psicologia */
+    .section-psicolog__images{
+        margin: 10px 5px 30px 5px;
+    }
+    .section-psicolog__images .images-content{
+        margin: 0;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* section de los niveles educativos */
+    .section__nevel-educ .nevel-educ__encabezado p{
+        width: 100%;
+    }
+    .section__nevel-educ .nevel-educ__encabezado h2{
+        width: 100%;
+    }
+    .nevel-educ__carts-container{
+        flex-direction: column;
+    }
+    /* section de propuesta educativa */
+    .section-propeducativ__div-left{
+        display: none;
+    }
+    .section-propeducativ__div-right h2{
+        width: 100%;
+        text-wrap: balance;
+        text-align: center;
+        padding: 10px;
+    }
+    .div-right__propuestas-content{
+        padding: 20px;
+    }
+    .div-right__propuestas-content div{
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* section del header */
+    .header__section .section__cuadro-trasparent{
+        max-width: 500px;
+        height: auto;
+        margin: 0 10px;
+        padding: 30px;
+    }
+    .header__section .section__cuadro-trasparent h1{
+        font-size: 40px;
+    }
+    .header__section .section__cuadro-trasparent p{
+        font-size: 15px;
+    }
+    .header__section .section__cuadro-trasparent a button{
+        font-size: 15px;
+    }
+    .header__section .section__cuadro-trasparent a button:hover{
+        background-color: #38e;
+        color: #eee;
+        transition: .3s;
+    }
+}
+@media (max-width: 480px) {
+    /* section del header */
+    .header__section .section__cuadro-trasparent h1{
+        font-size: 24px;
+    }
+    .header__section .section__cuadro-trasparent p{
+        font-size: 14px;
+    }
+    .header__section .section__cuadro-trasparent a button{
+        font-size: 13px;
+    }
+    /* section de los niveles educativos */
+    .section__nevel-educ{
+        padding: 15px 0;
+    }
+    .section__nevel-educ .nevel-educ__encabezado p{
+        font-size: 14px;
+    }
+    .section__nevel-educ .nevel-educ__encabezado h2{
+        font-size: 25px;
+    }
+    .section__nevel-educ .nevel-educ__carts{
+        width: 85vw;
+    }
+    .section__nevel-educ .nevel-educ__carts img{
+        height: auto;
+    }
+    .section__nevel-educ .nevel-educ__carts h2{
+        font-size: 40px;
+    }
+    /* section de psicologia */
+    .section-psicolog .section-psicolog__enbabezado h2{
+        font-size: 24px;
+    }
+    .section-psicolog .section-psicolog__enbabezado p{
+        font-size: 14px;
+    }   
+    /* section de propuesta educativa */
+    .section-propeducativ{
+        padding: 10px 0;
+    }
+    .section-propeducativ__div-left{
+        margin-right: 50px;
+    }
+    .section-propeducativ__div-left img{
+        height: 400px;
+    }
+    .div-right__propuestas i{
+        font-size: 25px;
+    }
+    .section-propeducativ__div-right h2{
+        font-size: 30px;
+    }
+    .section-propeducativ__div-right p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
