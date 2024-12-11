@@ -101,6 +101,7 @@ body{
     height: 265px;
     padding: 40px 20px 0 20px;
     object-fit: cover;
+    object-position: top;
 }
 .section__nevel-educ .nevel-educ__carts h2{
     text-align: center;

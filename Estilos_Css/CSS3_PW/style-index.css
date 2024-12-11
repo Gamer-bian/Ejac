@@ -245,7 +245,6 @@ body{
     margin-bottom: 20px;
 }
 .section-personal__imgh3{
-    background-image: url(../../Images/directora.jpg);
     background-position: center;
     background-size: cover;
     width: 290px;
@@ -257,8 +256,28 @@ body{
     margin: 15px 15px;
     transition: transform .3s;
 }
-.section-personal__conteinertwo .director{
-    background-image: url(../../Images/director.jpg);
+.section-personal__conteinertwo .directora{
+    background-image: url(../../Images/directora.jpeg);
+    transition: transform .3s;
+}
+.section-personal__conteinertwo .secretaria1{
+    background-image: url(../../Images/secretaria1.jpeg);
+    transition: transform .3s;
+}
+.section-personal__conteinertwo .secretaria2{
+    background-image: url(../../Images/secretaria.jpeg);
+    transition: transform .3s;
+}
+.section-personal__conteinertwo .bibliotecaria{
+    background-image: url(../../Images/bibliotecaria.jpeg);
+    transition: transform .3s;
+}
+.section-personal__conteinertwo .medegestion{
+    background-image: url(../../Images/Miembro_del_Equipo_de_Gestión.jpeg);
+    transition: transform .3s;
+}
+.section-personal__conteinertwo .psicologa{
+    background-image: url(../../Images/Psicologa_de_Primer_Ciclo.jpeg);
     transition: transform .3s;
 }
 .section-personal__imgh3:hover{
