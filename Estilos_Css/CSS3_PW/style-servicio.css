@@ -184,6 +184,53 @@ body{
     transform: scale(1.1);
     transition: .3s;
 }
+/* Section del link para la carpeta */
+.section-infoCarpet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.infoCarpet__link {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.infoCarpet__link p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-wrap: balance;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.infoCarpet__link-href {
+    display: inline-block;
+    background-color: #27d;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: background 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(39, 221, 255, 0.4);
+    font-weight: bold;
+}
+
+.infoCarpet__link-href:hover {
+    background-color: #38e;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(39, 221, 255, 0.5);
+}
+
 /* section de propuesta educativa */
 .section-propeducativ{
     background-color: #3bf;
