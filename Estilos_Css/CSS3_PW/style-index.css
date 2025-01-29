@@ -280,6 +280,18 @@ body{
     background-image: url(../../Images/Psicologa_de_Primer_Ciclo.jpeg);
     transition: transform .3s;
 }
+.section-personal__conteinertwo .psicologa2{
+    background-image: url(../../Images/Psicologa_de_Segundo_Ciclo.jpeg);
+    transition: transform .3s;
+    background-size: cover;
+    background-position: top;
+}
+.section-personal__conteinertwo .coordPedago{
+    background-image: url(../../Images/Cordinadora_Pedagogica.jpeg);
+    transition: transform .3s;
+    background-size: cover;
+    background-position: top;
+}
 .section-personal__imgh3:hover{
     transition-property: background-image;
     transform: scale(1.05);
